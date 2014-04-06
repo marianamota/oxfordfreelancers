@@ -1,0 +1,42 @@
+body {
+font-family: 'Open Sans', sans-serif !important;
+background-color: #cc0000;
+font-size: 12px;
+}
+
+h1 {
+margin: 0;
+font-family: 'Source Sans Pro', sans-serif !important;
+font-size: 24px !important;
+}
+
+.listing {
+margin-top: 15px;
+}
+
+.advertise {
+	background-color: #f1f1f1;
+	width: 100%;
+	height: 100px;
+	color: #ccc;
+	text-align: center;
+	padding: 30px;
+	margin-bottom: 20px;
+}
+
+.advertise a{
+	color: #ccc;
+}
+
+.btn-primary {
+	font-size: 14px !important;
+	padding: 10px !important;
+}
+
+.ss-form-entry input {
+	font-size: 24px !important;
+}
+
+.navbar {
+background-color: #16cbe6
+}
