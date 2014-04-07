@@ -1,23 +1,99 @@
 body {
-font-family: 'Open Sans', sans-serif !important;
-background-color: #cc0000;
-font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	background: url('../images/shattered-island.gif') 0 0 repeat;
+
+}
+
+p {
+	font-size: 14px;
+}
+
+a {
+	color: #f4c532;	
+}
+
+hr {
+	border-color: #666;
+}
+
+header {
+	color: #fff;
+}
+
+.formcontainer {
+	background-color: #fff;
+}
+
+.navbar-brand {
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #f4c532 !important;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;			
+}
+
+.accent {
+	font-weight: 600;
+}
+
+.container {
 }
 
 h1 {
-margin: 0;
-font-family: 'Source Sans Pro', sans-serif !important;
-font-size: 24px !important;
+	margin: 15px 0 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 50px;
+	text-transform: uppercase;
+	text-shadow:1px 1px 1px rgba(0, 0, 0, 0.5);
+	text-align: center;
+	font-weight: 300;	
 }
 
 h2 {
-margin: 0;
-font-family: 'Source Sans Pro', sans-serif !important;
-font-size: 20px !important;
+	font-size: 16px;
+	text-align: center;
+	line-height: 1.5em;
+	font-weight: normal;
+	margin: 10px 0 20px 0;
+}
+
+h3 {
+	margin: 20px 0 10px 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
 }
 
 .listing {
 margin-top: 15px;
+}
+
+.listing .col-md-10{
+	background-color: #fff;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
+.about {
+	background-color: #fff;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+thead {
+
+}
+
+td, th {
+	font-size: 13px !important;
+}
+
+table tr td:first-child {
+}
+
+th {
+	text-transform: uppercase;
+	font-size: 12px;
 }
 
 .advertise {
@@ -28,6 +104,7 @@ margin-top: 15px;
 	text-align: center;
 	padding: 30px;
 	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 .advertise a{
@@ -35,14 +112,61 @@ margin-top: 15px;
 }
 
 .btn-primary {
-	font-size: 14px !important;
-	padding: 10px !important;
+	font-size: 13px;
+	padding: 10px;
+	background-color: transparent;
+	border-color: #fff;
+	color: 	#f4c532;	
+}
+
+.navbar-toggle {
+	background-color: #f4c532;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+
+.btn-primary:hover {
+	background-color: #f4c532;	
+	color: #333;
+	border-color:#f4c532 ;
 }
 
 .ss-form-entry input {
-	font-size: 24px !important;
+	font-size: 24px;
 }
 
-.navbar {
-background-color: #16cbe6
+.ss-form-title {
+	font-size: 12px !important;
+}
+
+.ss-form-entry input {
+	width: 10px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default {
+	background-color: #fff;
+/*	background-color: rgba(0,0,0,0.3);*/
+	border: 0;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
 }
