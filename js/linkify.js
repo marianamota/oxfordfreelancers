@@ -35,4 +35,4 @@
 })(jQuery);
 
 // Usage example:
-jQuery('div.textbody').linkify();
+jQuery('div.freelancerslist').linkify();
