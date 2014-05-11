@@ -119,6 +119,10 @@ th {
 	color: 	#f4c532;	
 }
 
+.nav .fa {
+	font-size: 16px;
+}
+
 .navbar-toggle {
 	background-color: #f4c532;
 }
