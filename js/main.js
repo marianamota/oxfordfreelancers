@@ -21,7 +21,6 @@ $(function (){
 		var websiteEl = $('#freelancerslist td:nth-child(5)');
 		websiteEl.each(function(index) {
 			var link = $(this).text();
-			console.log(link);
 			$(this).wrapInner('<a target="_blank" href="'+ link +'" />');
 		});	
 	};
@@ -33,7 +32,6 @@ $(function (){
 			var link = "http://twitter.com/"; //twitter url 
 			var text = $(this).text();
 				text = text.replace("@", "");
-				console.log(text);
 			link += text;
 			$(this).wrapInner('<a target="_blank" href="'+ link +'" />');
 		});	
@@ -41,10 +39,3 @@ $(function (){
 
 
 });
-
-/*
-var value = $("#text").val(); // value = 9.61 use $("#text").text() if you are not on select box...
-value = value.replace(".", ":"); // value = 9:61
-// can then use it as
-$("#anothertext").val(value);
-*/

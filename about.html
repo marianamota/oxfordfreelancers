@@ -74,16 +74,17 @@
 	<!-- Placed at the end of the document so the pages load faster -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.js"></script>
-	<script>
-		var mySpreadsheet = 'https://docs.google.com/spreadsheet/pub?key=0AgYVWMxsntVodGlNeS13M0V1dmFmakJENTlaMWoxV2c&single=true&gid=3';
-		$('#freelancerslist').sheetrock({
-			url: mySpreadsheet,
-			chunkSize: 100,
-			sql: 'select B,E,C,D,F,G order by A desc'
-		});
-		$('table').addClass('table table-striped table-hover');
-		$('td').addClass('first');
-</script>     
+	<script src="js/jquery.js"></script> 
+	<script src="js/main.js"></script>   
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-6234347-11', 'oxfreelancers.com');
+  ga('send', 'pageview');
+
+</script>   
   </body>
 </html>
