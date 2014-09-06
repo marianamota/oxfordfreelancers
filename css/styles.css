@@ -182,7 +182,7 @@ th {
 .filter-table .quick { margin-left: 1.4em; font-size: 0.8em; padding: 3px 5px; border: 1px solid #ddd; border-radius: 3px; text-decoration: none; }
 .filter-table .quick:hover { background-color: #ddd; }
 .filter-table input { border: 1px solid #ddd; border-radius: 3px; padding: 3px; }
-.filter-table { padding-bottom: 11px; border-bottom: 1px solid #ddd; }
+.filter-table { padding: 11px 0; border-bottom: 1px solid #ddd; }
 table.table-striped tbody tr td.alt { background-color: #f3f4c3; }
 
 /* Sticky footer styles
