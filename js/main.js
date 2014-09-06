@@ -20,7 +20,9 @@ $(function (){
 
 	// add a table filter
 	function tableFilterApplication() {
-		$('table').filterTable();
+		$('table').filterTable(
+			quickList: ['Branding', 'Design', 'UX', 'Front end', 'Copywriting']	
+	        );
 	}	
 
 	// add boostrap style to table
