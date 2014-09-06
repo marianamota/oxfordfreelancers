@@ -10,7 +10,7 @@ p {
 }
 
 a {
-	color: #F0B600;	
+	color: #FFAE00;	
 }
 
 hr {
@@ -65,7 +65,7 @@ h3 {
 }
 
 .listing {
-margin-top: 15px;
+	margin-top: 15px;
 }
 
 .listing .col-md-10{
@@ -89,12 +89,12 @@ td, th {
 }
 
 td.website-link a {
-	color: #F0B600;
+	color: #FFAE00;
 	
 }
 
 td.website-link a:visited {
-	color: #BA9F49;
+	color: #CC951F;
 }
 
 
