@@ -64,6 +64,10 @@ h3 {
 	font-size: 20px;
 }
 
+.table-wrapper {
+	background-color: #fff;
+}
+
 .listing {
 	margin-top: 15px;
 }
