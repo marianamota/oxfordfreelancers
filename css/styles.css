@@ -10,7 +10,7 @@ p {
 }
 
 a {
-	color: #FFAE00;	
+	color: #1179be;	
 }
 
 hr {
@@ -89,12 +89,12 @@ td, th {
 }
 
 td.website-link a {
-	color: #FFAE00;
+	color: #1179be;
 	
 }
 
 td.website-link a:visited {
-	color: #CC951F;
+	color: #2b6a94;
 }
 
 
