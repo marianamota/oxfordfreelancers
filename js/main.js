@@ -12,7 +12,7 @@ $(function (){
 	});
 
 	// work out portfolio link
-	$('table td a:not('[href~=twitter]')').parent().addClass('website-link');
+	$('table td a:not("[href~=twitter]")').parent().addClass('website-link');
 
 
 	// add boostrap style to table
