@@ -8,12 +8,14 @@ $(function (){
 		userCallback: function() {
 			links();
 			twitter();
+			websiteLink();
 		}
 	});
 
 	// work out portfolio link
-	$('table td a:not([href~=twitter])').parent().addClass('website-link');
-	$('table td a:not([href~=twitter])').css('border', '1px solid yellow');
+	function websiteLink() {
+		$('table td a:not([href~=twitter])').parent().addClass('website-link');
+	}
 
 	// add boostrap style to table
 	$('table').addClass('table table-striped table-hover');
