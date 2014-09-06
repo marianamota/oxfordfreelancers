@@ -90,13 +90,11 @@ td, th {
 
 td.website-link a {
 	color: #F0B600;
-	font-weight: 600;
 	
 }
 
 td.website-link a:visited {
 	color: #BA9F49;
-	font-weight: 400;
 }
 
 
