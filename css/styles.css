@@ -10,7 +10,7 @@ p {
 }
 
 a {
-	color: #FFC81C;	
+	color: #F0B600;	
 }
 
 hr {
@@ -88,8 +88,15 @@ td, th {
 	font-size: 13px !important;
 }
 
+td.website-link a {
+	color: #BA9F49;
+	font-weight: 600;
+	
+}
+
 td.website-link a:visited {
 	color: #BA9F49;
+	font-weight: 400;
 }
 
 
