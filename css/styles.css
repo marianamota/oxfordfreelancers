@@ -88,7 +88,7 @@ td, th {
 	font-size: 13px !important;
 }
 
-td.website-link a.visited {
+td.website-link a:visited {
 	color: #FFD85E;
 }
 
