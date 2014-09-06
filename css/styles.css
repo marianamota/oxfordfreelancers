@@ -177,7 +177,7 @@ th {
 -------------------------------------------------- */
 .filter-table .quick { margin-left: 0.5em; font-size: 0.8em; text-decoration: none; }
 .fitler-table .quick:hover { text-decoration: underline; }
-td.alt { background-color: #F4C532; color: #fff; }
+table tbody tr td.alt { background-color: #F4C532; color: #fff; }
 
 /* Sticky footer styles
 -------------------------------------------------- */
