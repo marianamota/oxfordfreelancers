@@ -15,11 +15,11 @@ $(function (){
 
 	// work out portfolio link
 	function websiteLink() {
-		$('table td a[href*!="twitter"]').parent().addClass('website-link');
+		$('table td a:not([href*="twitter"])').parent().addClass('website-link');
 	}
 	
 	function websiteLinkVisited() {
-		$('table td a[href*!="twitter"]:visited').addClass('visited');
+		$('table td a:not([href*="twitter"]):visited').addClass('visited');
 	}
 
 	// add boostrap style to table
