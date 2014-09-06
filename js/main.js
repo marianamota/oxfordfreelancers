@@ -19,7 +19,7 @@ $(function (){
 	}
 	
 	function websiteLinkVisited() {
-		$('table td a:not([href*="twitter"]):visited').addClass('visited');
+		$('table td.website-link a:visited:not([href*="twitter"])').addClass('visited');
 	}
 
 	// add boostrap style to table
