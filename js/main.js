@@ -9,17 +9,12 @@ $(function (){
 			links();
 			twitter();
 			websiteLink();
-			websiteLinkVisited();
 		}
 	});
 
 	// work out portfolio link
 	function websiteLink() {
 		$('table td a:not([href*="twitter"])').parent().addClass('website-link');
-	}
-	
-	function websiteLinkVisited() {
-		$('table td.website-link a:visited').addClass('visited');
 	}
 
 	// add boostrap style to table
