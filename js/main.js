@@ -9,6 +9,7 @@ $(function (){
 			links();
 			twitter();
 			websiteLink();
+			tableFilterApplication();
 		}
 	});
 
@@ -16,7 +17,11 @@ $(function (){
 	function websiteLink() {
 		$('table td a:not([href*="twitter"])').parent().addClass('website-link');
 	}
-	
+
+	// add a table filter
+	function tableFilterApplication() {
+		$('table').filterTable();
+	}	
 
 	// add boostrap style to table
 	$('table').addClass('table table-striped table-hover');
