@@ -21,7 +21,7 @@ $(function (){
 	// add a table filter
 	function tableFilterApplication() {
 		$('table').filterTable({
-			quickList: ['Branding', 'Design', 'UX', 'Front end', 'Copywriting']	
+			quickList: ['Branding', 'Design', 'UX', 'Front-end', 'Copywriting']	
 	        });
 	}	
 
