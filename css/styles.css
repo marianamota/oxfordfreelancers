@@ -89,7 +89,8 @@ td, th {
 }
 
 td.website-link a:visited {
-	color: #F2DB94;
+	content: "\2713";
+	margin-left: 7px;
 }
 
 
