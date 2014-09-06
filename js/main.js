@@ -15,7 +15,6 @@ $(function (){
 	// work out portfolio link
 	function websiteLink() {
 		$('table td a:not([href*="twitter"])').parent().addClass('website-link');
-		$('table td.website-link a:visited').addClass('visited');
 	}
 	
 
