@@ -3,8 +3,8 @@ $(function (){
 	var mySpreadsheet = 'https://docs.google.com/spreadsheet/pub?key=0AgYVWMxsntVodGlNeS13M0V1dmFmakJENTlaMWoxV2c&single=true&gid=3';
 	$('#freelancerslist').sheetrock({
 		url: mySpreadsheet,
-		chunkSize: 0,
-		sql: 'select B,E,C,D,F,G order by A desc',
+		//chunkSize: 0,
+		sql: 'select * order by A desc',
 		userCallback: function() {
 			links();
 			twitter();
