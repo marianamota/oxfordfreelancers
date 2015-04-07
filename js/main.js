@@ -9,7 +9,7 @@ $(function (){
 			links();
 			twitter();
 			websiteLink();
-			tableFilterApplication();
+			//tableFilterApplication();
 		}
 	});
 
