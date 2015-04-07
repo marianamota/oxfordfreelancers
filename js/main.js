@@ -4,12 +4,12 @@ $(function (){
 	$('#freelancerslist').sheetrock({
 		url: mySpreadsheet,
 		//chunkSize: 0,
-		sql: 'select * order by A desc',
+		sql: 'select B,E,C,D,F,G order by A desc',
 		userCallback: function() {
 			links();
 			twitter();
 			websiteLink();
-			//tableFilterApplication();
+			tableFilterApplication();
 		}
 	});
 
