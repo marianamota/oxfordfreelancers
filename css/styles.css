@@ -46,13 +46,11 @@ h1 {
 	font-size: 50px;
 	text-transform: uppercase;
 	text-shadow:1px 1px 1px rgba(0, 0, 0, 0.5);
-	text-align: center;
 	font-weight: 300;	
 }
 
 h2 {
 	font-size: 16px;
-	text-align: center;
 	line-height: 1.5em;
 	font-weight: normal;
 	margin: 10px 0 20px 0;
